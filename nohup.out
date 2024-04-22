@@ -1,0 +1,22 @@
+Unable to connect to the server: dial tcp 192.168.49.2:8443: connect: no route to host
+error executing jsonpath "{.items[0].status.containerStatuses[0].restartCount}": Error executing template: array index out of bounds: index 0, length 0. Printing more information for debugging the template:
+	template was:
+		{.items[0].status.containerStatuses[0].restartCount}
+	object given to jsonpath engine was:
+		map[string]interface {}{"apiVersion":"v1", "items":[]interface {}{}, "kind":"List", "metadata":map[string]interface {}{"resourceVersion":""}}
+
+
+
+Current restarts: 
+watcher.sh: line 17: [: -gt: unary operator expected
+Unable to connect to the server: dial tcp 192.168.49.2:8443: connect: no route to host
+error executing jsonpath "{.items[0].status.containerStatuses[0].restartCount}": Error executing template: array index out of bounds: index 0, length 0. Printing more information for debugging the template:
+	template was:
+		{.items[0].status.containerStatuses[0].restartCount}
+	object given to jsonpath engine was:
+		map[string]interface {}{"apiVersion":"v1", "items":[]interface {}{}, "kind":"List", "metadata":map[string]interface {}{"resourceVersion":""}}
+
+
+
+Current restarts: 
+watcher.sh: line 17: [: -gt: unary operator expected
